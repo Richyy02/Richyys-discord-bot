@@ -83,7 +83,7 @@ def save_image_url_to_csv(image_urls):
 
 def get_and_save_image_to_file(image_url, output_dir):
     try:
-        response = requests.get(image_url)
+        response = requests.get(image_url, headers= {'User-agent': 'Very human'})
         print(f'status code: {response.status_code}')
         print(f'response url: {response.url}')
         
