@@ -12,10 +12,10 @@ When typing ?search {query} the bot will look for a random advertisment on markt
 
 All these features are web scrapers and are built to run on the firefox geckodriver.
 
-#Installation
+# Installation
 
 First do pip install -r .\requirements.txt
 
 Create an .env file and add DISCORD_TOKEN = your_discord_token
 
-Finally do python3 main.py to run the bot.
+Finally type: python3 main.py in terminal to run the bot.
